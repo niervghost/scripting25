@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&family=Zain:wght@300;400;700&display=swap');
+
+.index-header{
+    background-image: url(../assets/Home/indexH.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.geo-header{
+    background-image: url(../assets/Geography/header1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.ppl-header{
+    background-image: url(../assets/People/header.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.eco-header{
+    background-image: url(../assets/Economy/header1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.attract-header{
+    background-image: url(../assets/Attractions/bus.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.ref-header{
+    background-image: url(../assets/References/lighthouse.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.nav-item {
+    border-right: 2px solid #ffffff; 
+    padding: 0 15px; 
+    display: inline-block; 
+}
+
+.nav-item:last-child {
+    border-right: none; 
+}
+
+.navbar-nav .nav-link{
+    font-family: Tinos, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #4b684e;
+}
+
+footer{
+    background-color: #4b684e;
+}
+
+ul{
+    list-style-type: none;
+    font-family: Zain, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+.p-6{
+    padding: 60px !important;
+    padding-left: 70px !important;
+    padding-top: 0 !important;
+    padding-right: 30px !important;
+}
+
+.p-7{
+    padding: 3rem !important;
+    padding-bottom: 80px !important;
+}
+
+.p-8{
+    padding-left: 30px !important;
+    padding-bottom: 80px !important;
+    padding-right: 30px !important;
+}
+
+h1{
+    font-family: Tinos, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+}
+
+h2{
+    font-family: Tinos, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3{
+    font-family: Tinos, serif;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+
+h5{
+    font-family: Tinos, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    font-family: Zain, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #cbcbbd;
+}
+
+.my-card{
+    background-color: #76593d;
+    color: #ffffff;
+    border-color: #76593d;
+}
+
+.my-card2{
+    background-color: #76593d;
+    color: #ffffff;
+    border-color: #76593d;
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.card{
+    transition: all 0.3s;
+}
+
+.modal-header{
+    background-color: #76593d;
+}
+
+
+.my-card .card-img-top {
+    height: 180px; 
+    object-fit: cover; 
+}
+
+
+.my-card {
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+.my-card .card-body {
+    flex-grow: 1;
+}
+
+
+.my-card .card-title {
+    text-align: center;
+}
+
+
+a:link {
+    color: #ffffff;
+}
+
+
+a:visited {
+    color: #9f8d73;
+}
+
+
+a:hover {
+    color: #8c916c;
+}
+
+
+.accordion-button {
+    background-color: #76593d !important;
+    color: #ffffff; 
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #76593d !important;
+    color: #ffffff;
+}
+
+
+.accordion-body {
+    background-color: #76593d;
+    color: #ffffff; 
+}
+
+
+.accordion-item {
+    border: none;
+}
+
+
+.accordion-body .list-group {
+    background-color: #76593d;
+    border: none; 
+}
+
+
+.accordion-body .list-group-item {
+    background-color: #76593d;
+    color: #ffffff;
+    border: none; 
+}
+
+.accordion-body .list-group-item a {
+    color: #f1d9c3; 
+    text-decoration: underline;
+}
+
+.accordion-body .list-group-item a:link {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.accordion-body .list-group-item a:hover {
+    color: #8c916c; 
+    text-decoration: underline;
+}
+
+.accordion-body .list-group-item a:visited {
+    color: #9f8d73; 
+}
+
+.accordion-button::after {
+    filter: invert(1); 
+}
+
+
+.modal-content {
+    background-color: #76593d; 
+    border: 5px solid #76593d; 
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: none; 
+}
+
+
