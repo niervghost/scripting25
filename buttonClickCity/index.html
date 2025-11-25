@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intro to Javascript</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/build.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!----------------------------- Header -------------------------------------------->
+    <header class="bg-main">
+        <div class="container">
+            <div class="row align-items-center customHeight">
+                <div class="col-sm-6 text-white">
+                    <h1>Learning JavaScript</h1>
+                    <p>Interactivity for the Modern Web</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-5">
+            <div class="row">
+                <div id="column1" class="col-sm-8 mx-auto bg-main p-5 text-white">
+                    <!---------------------The column where things will change!----------------------->
+                    <h2 class="text-center py-3">We Built This City!</h2>
+
+                    <!-- Form with only a button that will call a Javascript function -->
+                    <form action="javascript:storageBuild()">
+                        <div class="d-grid pb-3">
+
+                            <button type="submit" class="btn btn-secondary btn-block">Build Storage</button>
+
+                        </div>
+
+                    </form>
+
+                    <!-- Form with only a button that will call a different Javascript function -->
+                    <form action="javascript:apartBuild()">
+                        <div class="d-grid pb-3">
+
+                            <button type="submit" class="btn btn-secondary btn-block">Build an Apartment</button>
+
+                        </div>
+
+                    </form>
+
+                    <!-- Form with only a button that will call a third Javascript function -->
+                    <form action="javascript:houseBuild()">
+                        <div class="d-grid pb-3">
+
+                            <button type="submit" class="btn btn-secondary btn-block">Build a House</button>
+
+                        </div>
+
+                    </form>
+
+                    <!-- Form with only a button that will call a fourth Javascript function -->
+                    <form action="javascript:towerBuild()">
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-secondary btn-block">Build a Tower</button>
+
+                        </div>
+
+                    </form>
+
+                    <!-- Div that will display a message about how many buildings the user put into the city -->
+                    <div id="city" class="my-3"> </div>
+
+                    <!-- Div that will display the buildings the user put into the city -->
+                    <div id="cityGraphic" class="bg_city p-5"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------Your Custom Javascript----------------------->
+    <script src="js/build.js"></script>
+
+</body>
+
+</html>

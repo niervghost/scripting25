@@ -1,0 +1,13 @@
+/* Class for setting height to 40% of the viewport */
+.customHeight{
+    height:40vh;
+}
+/* main background colour */
+.bg-main{
+    background-color: rgb(255, 70, 70);
+}
+
+/* background colour for behind the city */
+.bg_city{
+    background-color: rgb(243, 214, 214)
+}
