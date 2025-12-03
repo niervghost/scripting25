@@ -6,8 +6,8 @@ function generateStory(event) {
     
     try {
       
-        const sciFiImageUrl = "assets/scifi1.jpg";
-        const fantasyImageUrl = "assets/fantasy1.jpg";
+        const sciFiImageUrl = "images/scifi1.jpg";
+        const fantasyImageUrl = "images/fantasy1.jpg";
         
        
         const adjective1 = document.getElementById('adjective_1').value;
@@ -155,3 +155,4 @@ document.addEventListener('DOMContentLoaded', () => {
         resetButton.addEventListener('click', resetStory);
     }
 });
+
