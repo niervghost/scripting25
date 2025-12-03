@@ -1,15 +1,15 @@
 function generateStory(event) {
-    
+   
     event.preventDefault();
 
     const storyOutputDiv = document.getElementById('story-output');
     
     try {
+      
+        const sciFiImageUrl = "assets/scifi1.jpg";
+        const fantasyImageUrl = "assets/fantasy1.jpg";
         
-        const sciFiImageUrl = "images/scifi1.jpg";
-        const fantasyImageUrl = "images/fantasy1.jpg";
-        
-        
+       
         const adjective1 = document.getElementById('adjective_1').value;
         const liquid1 = document.getElementById('liquid_1').value;
         const number1 = document.getElementById('number_1').value;
@@ -92,7 +92,7 @@ He knew he must ${verbPresent1} the final curse to escape with his life.
             `;
         }
 
-        
+       
         storyImageHtml = `
             <img 
                 src="${currentImageUrl}" 
@@ -109,8 +109,8 @@ He knew he must ${verbPresent1} the final curse to escape with his life.
                 ${storyImageHtml}
                 <h3 class="h4 text-warning">${storyTitle}</h3>
             </div>
-            
-            <pre class="fs-6 text-terminal-green p-2">${finalStory.trim()}</pre>
+            <!-- Added style="white-space: pre-wrap;" to allow text to wrap responsively -->
+            <pre class="fs-5 text-terminal-green p-2" style="white-space: pre-wrap;">${finalStory.trim()}</pre>
         `;
 
     } catch (error) {
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const resetButton = document.getElementById('reset-button');
     if (resetButton) {
-        
+       
         resetButton.addEventListener('click', resetStory);
     }
 });
